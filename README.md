@@ -5,7 +5,7 @@
 
 ## Demo image
 
-![Untitled](https://raw.githubusercontent.com/ales-dev-studio/flutter-verical-stepper/refs/heads/main/assets/images/demo.png)
+![Untitled](https://raw.githubusercontent.com/ales-dev-studio/flutter-portfolio-app/refs/heads/main/assets/images/demo.png)
 
 
 ## Installation
