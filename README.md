@@ -1,9 +1,11 @@
 
 
 
-# Flutter clean architecture structure with BLOC and Get_It Packages
+# Flutter portfolio app
 
-This repository contains a clean architecture structure using Flutter, following the Clean Architecture principles and utilizing BLOC pattern along with BLOC and Get_It packages.
+## Demo image
+
+![Untitled]([https://raw.githubusercontent.com/ales-dev-studio/flutter-verical-stepper/refs/heads/main/assets/images/demo.png](https://github.com/ales-dev-studio/flutter-portfolio-app/blob/main/assets/images/demo.png))
 
 ## Installation
 
