@@ -111,20 +111,3 @@ See for more information:
 
 To use command-line tool run this command:
 > mason make formz_input -o  ~/AndroidStudioProjects/personal_portfolio/lib/features --input_name PhoneNumber --input_type String --initial_value "''" --validate_empty_string true
-
-===============================
-
-Sized_context package allow to easily access the MediaQuery sizing info directly on the context
-hint: package codes with some changes have been used in the project instead of package
-
-See for more information:
-[online documentation](https://pub.dev/packages/sized_context)
-
-===============================
-
-Mockito package is used to generate mock classes for testing
-
-See for more information:
-[online documentation](https://pub.dev/packages/mockito)
-
-===============================
