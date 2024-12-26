@@ -1,0 +1,149 @@
+name: personal_portfolio
+description: personal_portfolio app
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Web service handler
+  dio: ^5.3.2
+
+  # Comparing objects
+  equatable: ^2.0.5
+
+  # State management
+  bloc: ^8.1.2
+  flutter_bloc: ^8.1.3
+
+  # Dependency injection
+  get_it: ^7.6.0
+
+  # Routing
+  go_router: ^10.1.0
+
+  # Finding common path on the filesystem
+  path_provider: ^2.0.10
+
+  # Local storage
+  shared_preferences: ^2.2.0
+
+  # Localization
+  slang: &slang_version 3.23.0
+  slang_flutter: *slang_version
+
+  # Command-line tool for simplifies updating app's icons
+  flutter_launcher_icons: ^0.13.1
+
+  # Tool for simplifies updating app's splash screen
+  flutter_native_splash: ^2.3.2
+
+  # Lottie animation json file parser and viewer
+  lottie: ^2.6.0
+
+  # SVG file viewer
+  flutter_svg: ^2.0.7
+
+  # Show images from the internet and keep them in the cache directory
+  cached_network_image: ^3.2.3
+
+  # Provide the flutter scroll component drop-down refresh
+  pull_to_refresh: ^2.0.0
+
+  # Rating
+  flutter_rating_bar: ^4.0.1
+
+  # Package for expand and collapse text
+  readmore: ^2.2.0
+
+  # Package for provide SMS code autofill support
+  sms_autofill: ^2.3.0
+
+  # Package for simplifying form display and validation in a generic way
+  formz: ^0.6.0
+
+  # Packages for working with Persian numbers and writings
+  persian_number_utility: ^1.1.3
+  persian_tools: ^1.0.3
+
+  # Package for discover network connectivity status
+  connectivity_plus: ^4.0.2
+
+  # Animated page indicator
+  smooth_page_indicator: ^1.1.0
+
+  # Provides internationalization and localization facilities
+  intl: ^0.19.0
+
+  # Persian datetime picker inspired by material datetime picker
+  persian_datetime_picker: ^2.6.0
+
+  # Package for load yaml file
+  yaml: ^3.1.2
+
+  # Package for capture widgets as images
+  screenshot: ^2.1.0
+
+  # Package for share content from app via the platform's native share dialog
+  share_plus: ^7.2.0
+
+  # Package contains pre-canned animations for commonly-desired effects.
+  animations: ^2.0.8
+
+  # Package for generate mock classes used for test
+  mockito: ^5.4.2
+
+  # Package for testing bloc and cubit
+  bloc_test: ^9.1.5
+
+  # Package for pick single or multiple files from device
+  file_picker: ^6.1.1
+
+  # Package for pick image from the image library, and taking new image with the camera
+  image_picker: ^1.0.4
+
+  animated_text_kit: ^4.2.2
+
+  flutter_gen: ^5.4.0
+
+dev_dependencies:
+  slang_build_runner: *slang_version
+  build_runner: ^2.4.6
+  flutter_gen_runner:
+  flutter_test:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+  # flutter_gen package configuration
+flutter_gen:
+  output: lib/core/gen/
+  line_length: 80
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/animations/
+    - assets/icons/
+    - assets/images/
+    - assets/fonts/
+    - pubspec.yaml
+
+  fonts:
+    - family: IranYekanXFaNum
+      fonts:
+        - asset: assets/fonts/IRANYekanXFaNum-Regular.ttf
+        - asset: assets/fonts/IRANYekanXFaNum-Bold.ttf
+
+    - family: IranYekanX
+      fonts:
+        - asset: assets/fonts/IRANYekanX-Regular.ttf
+        - asset: assets/fonts/IRANYekanX-Bold.ttf
