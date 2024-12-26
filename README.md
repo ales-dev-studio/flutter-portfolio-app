@@ -19,7 +19,7 @@
 2. Change to the project directory:
 
    ```bash
-   cd flutter_boilerplate
+   cd portfolio_app
    ```
 
 3. Install the dependencies:
