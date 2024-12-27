@@ -27,7 +27,7 @@ void main() async {
   GoRouter.optionURLReflectsImperativeAPIs = true;
 
   /// Remove hash (#) from URL in flutter web app
-  setUrlStrategy(const PathUrlStrategy());
+  setUrlStrategy(PathUrlStrategy());
 
   /// Remove the native splash screen
   FlutterNativeSplash.remove();
