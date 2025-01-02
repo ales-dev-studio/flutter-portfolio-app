@@ -13,7 +13,7 @@
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/aliesmailie/personal_portfolio.git
+   git clone https://github.com/ales-dev-studio/flutter-portfolio-app.git
    ```
 
 2. Change to the project directory:
