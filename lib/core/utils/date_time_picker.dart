@@ -11,7 +11,7 @@ Future<Jalali?> pickDate({
   final Jalali? firstDate,
   final Jalali? lastDate,
   final String? title,
-  final PDatePickerEntryMode? initialEntryMode,
+  final PersianDatePickerEntryMode? initialEntryMode,
 }) async {
   try {
     final Jalali? pickedDate = await showPersianDatePicker(
@@ -20,7 +20,8 @@ Future<Jalali?> pickDate({
       initialDate: initialDate ?? Jalali(1370),
       firstDate: firstDate ?? Jalali(1300),
       lastDate: lastDate ?? Jalali(1450, 9),
-      initialEntryMode: initialEntryMode ?? PDatePickerEntryMode.calendarOnly,
+      initialEntryMode:
+          initialEntryMode ?? PersianDatePickerEntryMode.calendarOnly,
       builder: _datePickerBuilder,
     );
     return pickedDate;
@@ -34,10 +35,10 @@ Future<TimeOfDay?> pickTime({
   required final BuildContext context,
   final TimeOfDay? initialTime,
   final String? title,
-  final PDatePickerEntryMode? initialEntryMode,
+  final DatePickerEntryMode? initialEntryMode,
 }) async {
   try {
-    final TimeOfDay? pickedTime = await showPersianTimePicker(
+    final TimeOfDay? pickedTime = await showTimePicker(
       context: context,
       helpText: title ?? '',
       builder: _datePickerBuilder,
@@ -60,7 +61,6 @@ Widget _datePickerBuilder(final context, final child) => Theme(
           primary: checkDarkMode(context)
               ? AppColors.lightPrimaryColor
               : Theme.of(context).primaryColor,
-          background: Colors.red,
           onSurface: checkDarkMode(context) ? Colors.white : Colors.black,
         ),
       ),

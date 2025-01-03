@@ -81,7 +81,7 @@ dependencies:
   intl: ^0.19.0
 
   # Persian datetime picker inspired by material datetime picker
-  persian_datetime_picker: ^2.6.0
+  persian_datetime_picker: ^3.1.0
 
   # Package for load yaml file
   yaml: ^3.1.2
@@ -102,7 +102,7 @@ dependencies:
   bloc_test: ^9.1.5
 
   # Package for pick single or multiple files from device
-  file_picker: ^6.1.1
+  file_picker: ^8.1.7
 
   # Package for pick image from the image library, and taking new image with the camera
   image_picker: ^1.0.4
